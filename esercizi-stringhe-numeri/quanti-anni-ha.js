@@ -11,3 +11,8 @@
 
   http://www.imparareaprogrammare.it
 */
+
+const anno_corrente= 2018;
+var nascita = 1991;
+var età = anno_corrente - nascita
+console.log(`La tua età= ${età}, anni mancanti= ${100 - età}`);
