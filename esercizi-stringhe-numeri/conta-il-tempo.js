@@ -12,3 +12,7 @@
 
   http://www.imparareaprogrammare.it
 */
+var secondi= 12560
+var minuti= ((secondi%3600)/60)
+var ore= (secondi/3600)
+console.log(`Il tempo è di ${Math.floor(ore)} ore, ${Math.floor(minuti)} minuti, ${(secondi%3600)%60} secondi`);

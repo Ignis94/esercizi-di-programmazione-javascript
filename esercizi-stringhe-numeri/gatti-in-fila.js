@@ -17,3 +17,8 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var cats = 44;
+var inline= 6;
+var lines = Math.ceil(cats/inline)
+console.log(`numero di file= ${lines}, gatti mancanti= ${(lines*inline)-cats}`);
